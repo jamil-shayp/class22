@@ -1,0 +1,10 @@
+New Project :
+    -Planning
+        * Design
+        * colors ( #98D2C0 , #4F959D)
+        * section(Header - services - Blogs - Footer)
+        * Font
+    -Create Folder
+    -Create Files (html - css - img - video - logo )
+    -link Files
+    -Initialize project files

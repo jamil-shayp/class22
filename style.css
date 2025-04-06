@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.main-img img{
+    width: 400px;
+    height: 400px;
+}
+.social-icons{
+    display: flex;
+}
+.social-icons i{
+    font-size: 40px;
+    margin: 0px 10px;
+}
+
+.services{
+    /* background-color: #4F959D; */
+    padding: 10px;
+}
+.gradient{
+    background: linear-gradient(to top, #98D2C0, #4F959D);
+}
+
+.title h2{
+    text-transform: uppercase;
+    color: #eee;
+    text-align: center;
+}
+.cards-service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-service{
+    background-color: rgba(255, 255, 255, .5);
+    padding: 10px;
+    color: #eee;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 250px;
+
+}
+.card-service img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.card-service h2 , .card-service p{
+    color: #18230F;
+}
+
+@media screen and (max-width: 650px){
+    .main-img img{
+        width: 200px;
+        height: 200px;
+    }
+    .main{
+        flex-direction: column-reverse;
+    }
+    .main-text{
+        text-align: center;
+    }
+    .social-icons{
+        justify-content: center;
+        align-items: center;
+    }
+}
